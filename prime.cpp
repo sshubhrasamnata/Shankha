@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{int n;
+cout<<"enter the number "<<endl;
+ cin>>n;
+int c=0;
+for(int i=1;i<=n;i++)
+{if (n%i==0)
+  c+=1;
+}
+if(c==2)
+cout<<"prime no."<<endl;
+else 
+cout<<"not a prime no."<<endl;return 0;
+}
